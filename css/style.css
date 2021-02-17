@@ -1,0 +1,333 @@
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 50px !important;
+    font-family: 'Mr De Haviland', cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black !important;
+}
+a, h1>strong{
+    color: #ffffff !important;
+}
+button:active {
+    outline: none !important;
+    border: none !important;
+}
+    
+button:focus {outline:0;}
+/* navigation bar*/
+.container-fluid{
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/puneet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-marg {
+    margin: 0 20px;
+}
+
+.navbar-brand:hover
+{
+    color: #fd7e14 !important;
+}
+.nav-item a{
+    text-align: right;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-size: 25px !important;
+    text-decoration: none !important;
+}
+.nav-item a:hover
+{
+    color: #fd7e14 !important;
+
+}
+.navbar-toggler{
+    border: 5px solid #fd7e14 !important;
+    background-color: #fd7e14 !important;
+    opacity: 0.7;
+}
+/* navigation bar ends*/
+
+/* main*/
+.container{
+    padding: 0 !important;
+    margin: 0;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+.about.row{
+    margin: 0 auto;
+    width: 85%;
+    color: #ffffff !important;
+    text-align: justify;
+    padding: 2rem;
+    background-color: #212020;
+    min-height: 350px;
+    height: max-content;
+    margin-bottom: 5rem;
+}
+
+.about .right {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about h3 {
+    font-weight: bold;
+}
+
+.about p {
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.left{
+    background-image: url("../img/my.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+
+.profession{
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #ffffff !important;
+    text-align: center;
+}
+.item{
+    float: left;
+}
+.item i{
+    margin-bottom: 20px;
+}
+.item i:hover
+{
+    color: #fd7e14 !important;
+}
+.item h3{
+    margin-bottom: 20px;
+}
+
+.item a {
+    text-decoration: none !important;
+}
+
+.video-web {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.selection h3, .selection h4 {
+    color: #ffffff;
+}
+
+.hide-reel {
+    display: none !important;
+}
+/* main ends*/
+
+/* footer*/
+
+.footer.row{
+    width: 90%;
+    margin: 5rem auto;
+    color: #ffffff !important;
+    bottom: 0;
+}
+
+.mg{
+    margin-top: 5%;
+}
+
+video {
+    width: 100%;
+}
+
+.footer .f-left{
+    margin-top: 2rem;
+    text-align: left;
+    font-size: 20px;
+}
+.footer .f-left h3{
+    margin-bottom: 2rem;
+}
+.footer .f-right{
+    text-align: right;
+}
+/* footer ends*/ 
+
+/* About page */
+.main{  
+    color: #ffffff !important;
+    text-align: justify;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.main2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+input, input::placeholder {
+    color: #ffffff !important;
+}
+.about-heading h2{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.about-web{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.about-web h3{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.about-graphics{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.about-film{
+    margin-top: 5rem;
+}
+/* footer ends*/
+
+/* contact*/
+.contact-heading{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form-group {
+    margin-bottom: 2rem !important;
+}
+.form-group label {
+    text-align: left;
+}
+.form-btn{
+    background-color: #ffffff;
+    font-size: 18px;
+    border: 1px solid #fd7e14;
+    border-radius: 5px;
+    text-align: center;
+    color: #fd7e14;
+    margin-bottom: 30px;
+}
+.form-btn:hover{
+    color: #ffffff;
+    background-color: #fd7e14;
+}
+.col-form-label{
+    font-size: 35px;
+    font-weight: bold;
+}
+input{
+    background-color: #F7B174 !important;
+    border: 1px solid #fd7e14 !important;
+}
+/* contact ends*/
+
+/*portfolio*/
+.portfolio-heading{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.gal-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.selection-button
+{
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.selection-button:focus{
+    border: none !important;
+}
+.selection-button:hover, .selection-button.active
+{
+    color: #fd7e14;
+    border: none !important;
+
+}
+.clear{
+    clear:both;
+}
+@media only screen and (max-width:991px){
+    .about.row .right h3 {
+        padding-top: 25px;
+        text-align: center;
+    }
+    .profession {
+        width:70%;
+        margin: 0 auto;
+    }
+    .profession p {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .about.row {
+        width: 90%;
+    }
+    .about .right {
+        margin-top: 20px;
+    }
+    .main{
+        width: 90%;
+    }
+    .footer .f-right{
+        text-align: left;
+    }
+    .footer.row{
+        margin: 4rem auto;
+    }
+    .form-group {
+        margin-bottom: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .about .right {
+        margin-top: 15px;
+    }
+    .main{
+        width: 100%;
+    }
+    .footer .f-right{
+        text-align: left;
+    }
+    .footer.row{
+        margin: 3rem auto;
+    }
+    .form-group label {
+        text-align: center;
+    }
+    .form-group {
+        margin-bottom: 0.8rem !important;
+    }
+    .about p {
+        text-align: left;
+    }
+}
